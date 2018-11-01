@@ -1,0 +1,130 @@
+#login{
+	width: 100%;
+	height: 658px;
+	background: #ffd237;
+}
+.login_tops{
+	width: 100%;
+	height: 95px;
+	margin: 0 auto;
+	background: white;
+}
+.login_top{
+	width: 1200px;
+	height: 95px;
+	margin: 0 auto;
+}
+.login_top img{
+	float: left;
+	margin-left: 0px;
+	margin-top: 20px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+.login_top img:hover{
+	margin-left: 10px;
+}
+.login_top_ringht{
+	float: right;
+	width: 625px;
+	height: 95px;
+	background: url(../img/sadkj.jpg);
+}
+.login_body{
+	width: 1200px;
+	height: 563px;
+	margin: 0 auto;
+	background: red;
+	background: transparent url(../img/tu.png) no-repeat;
+	
+}
+.login_body_right{
+	width:410px;
+	height: 438px;
+	padding: 40px 40px 0px;
+	background: white;
+	float: right;
+	margin-top: 40px;
+	margin-right: 23px;
+	border: 1px solid #EBEBEB;
+}
+.login_body_title{
+	width:410px;
+	height: 71px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.user_input{
+	width:410px;
+	height: 61px;
+	border: 1px solid #EBEBEB;
+	border-radius: 3px;
+	margin-bottom: 25px;
+}
+.user_input_pic{
+	width:59px;
+	height: 35px;
+	margin-top: 17px;
+	background:url(../img/phone.png) no-repeat 15px 0px ;
+}
+.user_input>input{
+	width:352px;
+	height: 22px;
+	float: right;
+	border: none;
+	font-size: 18px;
+	border-left: 1px solid #EBEBEB; 
+	margin-top: -33px;
+	outline: none;
+}
+.pass_input{
+	width:410px;
+	height: 61px;
+	border: 1px solid #EBEBEB;
+	border-radius: 3px;
+	margin-bottom: 40px;
+}
+.pass_input_pic{
+	width:59px;
+	height: 35px;
+	margin-top: 17px;
+	background:url(../img/passward.png) no-repeat 15px 0px ;
+}
+.pass_input>input{
+	width:352px;
+	height: 22px;
+	float: right;
+	border: none;
+	border-left: 1px solid #EBEBEB; 
+	margin-top: -33px;
+	outline: none;
+	font-size: 18px;
+}
+.login{
+	width:410px;
+	height: 61px;
+	background: #F4BD39;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 61px;
+	cursor: pointer;
+}
+.other_btn{
+	width:132px;
+	height: 23px;
+	float: right;
+	margin-top: 25px;
+	margin-right:-15px;
+}
+.other_btn1{
+	cursor: pointer;
+	margin-right: 5px;
+}
+.other_btn3{
+	cursor: pointer;
+	margin-left: 5px;
+}
+#commonFoot{
+	width: 100%;
+	height: 470px;
+}

@@ -1,0 +1,91 @@
+#hang_sidebar{
+	width:62px;
+	height: 186px;
+	/*height: auto;*/
+    border: 1px solid #f2f2f2;
+    background-color: #fff;
+   position:fixed;
+   right: 0px;
+   top: 50%;
+   margin-top: -120px;
+   /*background: salmon;*/
+}
+.hang_item{
+	width:58px;
+	height: 58px;
+	margin: 0 auto;
+}
+.shop_pic{
+	margin-top: 5px;
+    width: 58px;
+    height: 22px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: #ccc;
+    background-size: 104%;
+    background-image: url(../img/pc_rightNavShopping.png);
+}
+
+.kefu_pic{
+	margin-top:5px;
+    width: 58px;
+    height: 22px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: #ccc;
+    background-size: 104%;
+    background-image: url(../img/pc_rightNavService.png);
+}
+
+.app_pic{
+	margin-top: 5px;
+    width: 58px;
+    height: 22px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: #ccc;
+    background-size: 104%;
+    background-image: url(../img/pc_rightNavApp.png);
+}
+
+.hang_tile{
+	width: 58px;
+    height: 27px;
+    line-height: 28px;
+    border-bottom: 1px solid #f2f2f2;
+    text-align: center;
+    color: #323232;
+    font-size: 13px;
+}
+.hang_item:hover .shop_pic{
+	cursor: pointer;
+	background-color: #FFD237;
+	
+}
+.hang_item:hover .kefu_pic{
+	cursor: pointer;
+	background-color: #FFD237;
+	
+}
+.hang_item:hover .app_pic{
+	cursor: pointer;
+	background-color: #FFD237;
+	
+}
+.hang_item:hover .hang_tile{
+	cursor: pointer;
+	color: #FFD237;
+}
+
+.hang_top{
+	width:60px;
+	height: 55px;
+	background: #888888;
+	color:white;
+	text-align: center;
+	line-height: 55px;
+	font-size: 18px;
+	font-weight:bold ;
+	display: none;
+	cursor: pointer;
+}

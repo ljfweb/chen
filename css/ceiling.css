@@ -1,0 +1,82 @@
+#hang_top_s{
+	width: 100%;
+	height: 56px;
+	background: #FFD237;
+	/*background: transparent;*/
+	position: fixed;
+	margin: 0 auto;
+	display: none;
+	z-index: 99;
+}
+.hang_top_b{
+	width: 1200px;
+	height: 56px;
+	margin: 0 auto;
+	
+}
+.top_pic_p_p{
+	/*position: relative;*/
+	width: 170px;
+	height: 40px;
+	/*position: relative;*/
+	float: left;
+	padding-top: 8px;
+	margin: 0 auto;
+}
+.top_p_p {
+	width: 82px;
+	height: 40px;
+	cursor: pointer;
+	transition: all 0.4s; 
+}
+.top_p_p:hover{
+	margin-left: 7px;
+}
+.top_so_s{
+	width: 860px;
+	height: 52px;
+	float: left;
+	/*position: relative;*/
+	
+	/*padding-top: 8px;*/
+	/*margin: 0 auto;*/
+}
+.top_so_so{
+	width: 715px;
+	height: 36px;
+	background: white;
+	float: right;
+	margin-right: 20px;
+	border-radius:3px ;
+	margin-top: 10px;
+	line-height: 36px;
+}
+.top_so_pic{
+	width: 34px;
+	height: 30px;
+	background: 50% no-repeat url(../img/searchGray.png);
+	/*background-size:contain ;*/
+	float: left;
+	margin-top: 3px;
+}
+.top_so_so input{
+	width: 679px;
+	height: 17px;
+	outline: none;
+	border: none;
+	float: left;
+	margin-top: 10px;
+	font-size: 17px;
+}
+.top_btn_s{
+	width: 65px;
+    letter-spacing: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #323232;
+    cursor: pointer;
+    float: left;
+	/*position: relative;*/
+    
+    margin-top: 13px;
+}

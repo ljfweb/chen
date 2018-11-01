@@ -1,0 +1,107 @@
+
+.login_tops{
+	width: 100%;
+	height: 95px;
+	margin: 0 auto;
+	background: white;
+}
+.login_top{
+	width: 1200px;
+	height: 95px;
+	margin: 0 auto;
+}
+.login_top img{
+	float: left;
+	margin-left: 0px;
+	margin-top: 20px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+.login_top img:hover{
+	margin-left: 10px;
+}
+.login_top_ringht{
+	float: right;
+	width: 625px;
+	height: 95px;
+	background: url(../img/sadkj.jpg);
+}
+
+.register_line{
+	width: 100%;
+    height: 2px;
+    box-shadow: 0 5px 5px #888;
+    
+}
+
+.register_body{
+	width: 1200px;
+	height: 563px;
+	margin: 0 auto;
+	/*background: skyblue;*/
+}
+.registry{
+	width: 420px;
+    height: 406px;
+    padding: 40px 20px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 74px auto 0;
+    color: #323232; 
+}
+.register_input{
+	position: relative;
+    height: 58px;
+    padding-right: 5px;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    margin-bottom: 25px;
+    
+}
+.register_title{
+	letter-spacing:4px;
+	width: 76px;
+    padding: 0 22px;
+    margin-top: 19px;
+    /*justify-content: space-between;*/
+    font-size: 15px;
+    float: left;
+}
+.last{
+	letter-spacing:0px !important; 
+}
+.register_input input{
+	 /*height: 90%;*/
+	margin-top: 19px;
+	border: none;
+	font-size:17px ;
+	outline: none;
+}
+.verify{
+	float: right;
+	height: 50px;
+    width:85px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 4px;
+}
+.register_input_btn{
+	letter-spacing:8px;
+	position: relative;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #ffd237;
+    border-radius: 3px;
+    font-size: 17px;
+    box-shadow: 5px 8px 3px #fcf5d9;
+    /*transition: background-color .2s ease-in-out;*/
+    cursor: pointer;
+}
+#commonFoot{
+	width: 100%;
+	height: 470px;
+}

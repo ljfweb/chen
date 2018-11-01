@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common_file.css"/>
+		<link rel="stylesheet" type="text/css" href="css/sidebar.css"/>
+	</head>
+	<body>
+		<div id="hang_sidebar">
+			<div class="hang_item">
+				<div class="shop_pic"></div>
+				<div class="hang_tile">购物车</div>
+			</div>
+			<div class="hang_item">
+				<div class="kefu_pic"></div>
+				<div class="hang_tile">客服</div>
+			</div>
+			<div class="hang_item">
+				<div class="app_pic"></div>
+				<div class="hang_tile">APP</div>
+			</div>
+			<div class="hang_top">
+				TOP
+			</div>
+		</div>
+	</body>
+	<script src="jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+			
+			$(window).scroll( function() { 
+				var pos = window.pageYOffset;
+				$(".hang_top").css("display","block")
+				if (pos==0) {
+					$(".hang_top").css("display","none")
+				}
+			} );
+			
+			
+			
+			
+			$(".hang_top").click(function() {
+      		var scrollToTop = window.setInterval(function() {
+		    var pos = window.pageYOffset;
+		            
+		        if ( pos > 0 ) {
+		          	window.scrollTo( 0, pos - 60 );
+		      	} else {
+		            window.clearInterval( scrollToTop );
+		        }
+		        }, 40);
+		
+					
+				
+ 			})
+			
+			
+//			购物车
+			$("#hang_sidebar div:nth-child(1)").click(function(){
+			location.href="shopping.html"	
+			})
+			
+		})
+	</script>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common_file.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ceiling.css"/>
+	</head>
+	<body style="height: 2000px;">
+		<div id="hang_top_s">
+			<div class="hang_top_b">
+				<div class="top_pic_p_p">
+					<img  class="top_p_p" src="img/logohei.png"/>
+				</div>
+				<div class="top_so_s">
+					<div class="top_so_so">
+						<div class="top_so_pic"></div>
+						<input type="text" placeholder="关键字请用空格隔开：耐克 男 跑鞋"/>
+					</div>
+					
+				</div>
+				<div class="top_btn_s">
+					搜索
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(window).scroll( function() { 
+				var pos = window.pageYOffset;
+				$("#hang_top_s").css("display","block")
+				if (pos==0) {
+					$("#hang_top_s").css("display","none")
+				}
+			} );
+		})
+		
+		
+		
+		
+		
+	</script>
+</html>

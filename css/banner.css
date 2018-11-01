@@ -1,0 +1,108 @@
+body{
+	background: #f2f2f2;
+}
+#big{
+	width: 1200px;
+	height: 396px;
+	margin: 0 auto;
+}
+#banner{
+	width: 800px;
+	height: 373px;
+	margin: 25px auto;
+	background: skyblue;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	float: left;
+	right:-200px;
+	margin-top: 23px;
+}
+.move{
+	width:4000px;
+	height: 373px;
+	float: left;
+}
+.move>img{
+	width:800px;
+	height: 373px;
+	float: left;
+	border: none;
+}
+#btn{
+	position: absolute;
+	width:36px;
+	height:36px;
+	top: 40%;
+	display: none;
+}
+
+.banner_prev{
+	position: absolute;
+	width:36px;
+	height:36px;
+	left: 20px;
+	background: transparent 30% url(../img/press.png) no-repeat;
+	cursor: pointer;
+	top: 40%;
+	border-radius: 50%;
+	
+}
+.banner_next{
+	position: absolute;
+	width:36px;
+	height:36px;
+	left: 745px;
+	border-radius: 50%;
+	background:transparent 30% url(../img/press2.png) no-repeat;
+	cursor: pointer;
+	top: 40%;
+}
+#banner:hover #btn{
+	display: block;
+}
+#inform{
+	width:189px;
+	height: 373px;
+	background: white;
+	float:right;
+	margin: 100px auto;
+	margin-top: 23px;
+}
+
+.inform_top{
+	width: 189px;
+	height: 141px;
+}
+.inform_top1{
+	width: 189px;
+	height: 91px;
+	background: url(../img/zhi.png);
+}
+.inform_top2{
+	width: 41px;
+	height: 18px;
+	background: #F4BD39;
+	font-size:12px;
+	color: white;
+	float: left;
+	margin-left: 15PX;
+	text-align: center;
+}
+
+
+.inform_mess{
+	width: 189px;
+	height: 30px;
+	background: url(../img/tong.png);
+}
+.inform_mess2>li{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size:15px;
+	list-style:none;
+}
+.hand1:hover{
+	cursor: pointer;
+	color: #F4BD39;
+}

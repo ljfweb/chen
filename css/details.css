@@ -1,0 +1,407 @@
+#commonHeader{
+	width: 100%;
+	height: 220px;
+	background:white;
+}
+#big_details{
+	width: 1200px;
+	height: 2415px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+/*//详情部分*/
+.details_info{
+	width: 1200px;
+	height: 588px;
+	/*float: left;*/
+	/*background: skyblue;*/
+}
+.details_info_left{
+	width: 445px;
+	height: 545px;
+	float: left;
+}
+.details_info_pic{
+	width: 445px;
+	height: 545px;
+}
+.details_pic_big{
+	width: 443px;
+	height: 443px;
+	border: 1px solid #ebebeb;
+	overflow: hidden;
+}
+.details_hand:hover{
+	border: 1px solid #FFA500;
+	cursor: pointer;
+}
+
+.details_pic_big img{
+	width: 443px;
+	height: 443px;
+	
+}
+.details_pic_smoll{
+	width: 444px;
+	height: 100px;
+}
+.details_pic_prve,.details_pic_next{
+	width: 43px;
+	height: 73px;
+	border: 1px solid #ebebeb;
+	color: #ebebeb;
+    font-size: 30px;
+    line-height: 73px;
+    text-align: center;
+    float: left;
+    margin-top: 13px;
+}
+.details_pic_next{
+	float: right;
+}
+.details_pic_min_big{
+	width: 320px;
+	height: 79px;
+	float: left;
+	margin-top: 5px;
+	/*margin-left: 10px;*/
+	overflow: hidden;
+}
+
+.details_pic_min{
+	width: 79px;
+	height: 79px;
+	border-left: 1px solid #ebebeb;
+	border-right: 1px solid #ebebeb;
+	float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.details_pic_min img{
+	width: 79px;
+	height: 79px;
+
+}
+.details_pic_min:hover{
+	border-left: 1px solid #FFA500;
+	border-right: 1px solid #FFA500;
+}
+.details_info_right{
+	width: 722px;
+	height:544px;
+	float: right;
+}
+.details_name{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.details_price{
+	width: 722px;
+	height:91px;
+	background: #fcf5d9;
+}
+
+.details_price1{
+	width: 722px;
+	height:53px;
+	line-height: 53px;
+}
+.details_type{
+	width: 722px;
+	height:28px;
+	line-height: 28px;
+}
+.details_info_right span{
+	margin-right: 40px;
+}
+.ymprice{
+	color: red;
+	font-size: 24px;
+	font-weight:bold;
+	
+}
+.old_price{
+	text-decoration: line-through;
+}
+.details_type_lis{
+	width: auto;
+	padding: 8px;
+	color: white;
+	background: red;
+	margin-left: 2px;
+	border-radius: 5px;
+}
+.details_size{
+	width: 722px;
+	height: 65px;
+	line-height: 65px;
+}
+.title{
+	float: left;
+}
+.details_size_box{
+	width: 647px;
+	height:64px;
+	float: right;
+}
+.size_box{
+	width: auto;
+	padding: 8px;
+	border: 1px solid #CCCCCC;
+	border-radius: 2px;
+}
+.size_box:hover{
+	cursor: pointer;
+	border: 1px solid #F4BD39;
+	
+}
+.details_num{
+	width: 722px;
+	height: 84px;
+	line-height: 84px;
+}
+.shoppe_num{
+	width: 80px;
+	height: 40px;
+	float: left;
+	margin-top: 21px;
+	font-size: 20px;
+	text-align: center;
+}
+.num_sub,.num_add{
+	width: 42px;
+	height: 42px;
+	border: 1px solid #CCCCCC;
+	margin-top: 21px;
+	float: left;
+	font-size: 40px;
+	line-height: 42px;
+	text-align: center;
+	margin-left: 4px;
+	/*cursor: pointer;*/
+}
+.num_sub:hover{
+	border: 1px solid #F4BD39;
+}
+.num_add:hover{
+	border: 1px solid #F4BD39;
+}
+
+.num_add{
+	margin-left: 0px;
+}
+.all_num{
+	float:left;
+	margin-left: 40px;
+	color: red;
+}
+.join_shopping{
+	width: 722px;
+	height: 300px;
+	float: left;
+	position: relative;
+	background: transparent url(../img/detail.jpg) no-repeat 0px 20px;
+	
+}
+
+.join_shopping>div{
+	cursor: pointer;
+}
+.join_nov1{
+	width: 166px;
+	height: 50px;
+	float: left;
+	position: absolute;
+	top: 28px;	
+}
+.join_nov1:hover{
+	cursor: pointer;
+	background: rgba(255,255,255,0.3)
+}
+.join_nov2{
+	width: 164px;
+	height: 48px;	
+	float: left;
+	position: absolute;
+	left: 189px;
+	top: 28px;
+}
+.join_nov2:hover{
+	cursor: pointer;	
+	background: rgba(255,255,255,0.3);
+}
+.join_nov3{
+	width: 48px;
+	height: 48px;
+	background:transparent;
+	border-radius: 3px;	
+	position: absolute;
+	left: 374px;
+	top: 28px;
+}
+.join_nov3:hover{
+	cursor: pointer;
+	border: 1px solid #F4BD39;
+}
+
+
+/*//热门推荐*/
+#details_recommend{
+	width: 1200px;
+	height: 340px;
+	margin-bottom: 0;
+}
+.details_recommend_title{
+	width: 1200px;
+	font-size: 17px;
+    color: #323232;
+    float: left;   
+    padding: 20px 0;
+    font-weight: 600;
+}
+.good_box{
+	width: 1198px;
+    height:244px;
+    float: left;
+    overflow: hidden;
+    border: 1px solid #ebebeb;
+}
+.good_box_pic{
+	width: 168px;
+    height:224px;
+    float: left;
+    padding: 0 15px 20px;
+    text-align: center;
+}
+.good_pic{
+	width: 168px;
+    height:224px;
+}
+.good_pics{
+	width: 168px;
+    height:170px;
+    overflow: hidden;
+}
+.good_pic img{
+	width: 168px;
+    height:170px;
+    cursor: pointer;
+}
+.good_pic img:hover{
+	
+	width: 171px;
+    height:172px;
+}
+.good_pic h3:hover{
+	color: #F4BD39;
+	cursor: pointer;
+}
+.good_money{
+	width: 168px;
+	height:21px;
+	text-align: center;
+}
+.good_price{
+	color:red;
+	font-weight: bold;
+	font-size: 18px;
+	margin-right: 10px;
+}
+.good_old_price{
+	text-decoration: line-through;
+}
+#details_other{
+	width: 1200px;
+	/*height: 968px;*/
+	margin: 0 auto;
+}
+.details_see{
+	width: 202px;
+    height:1435px;
+    overflow: hidden;
+    float: left;
+    border: 1px solid #ebebeb;
+}
+.see{
+	width: 200px;
+    height:50px;
+    line-height: 50px;
+	text-align: center;
+	font-weight:bold ;
+	font-size: 20px;
+}
+.see_box{
+	width: 200px;
+    height:1450px;
+    float: left;
+    overflow: hidden;
+    /*border-bottom: 1px solid #ebebeb;*/
+    
+}
+.good_see_pic{
+	width: 170px;
+    height:226px;
+    float: left;
+    padding: 2px 15px;
+    text-align: center;
+    border-top: 1px solid #ebebeb;
+    margin: 0 auto;
+}
+.details_other_right{
+	float: right;
+}
+.serve{
+	width: 975px;
+	height: 130px;
+	float: right;
+	border: 1px solid #ebebeb;
+	margin-bottom: 20px;
+}
+.serve_top{
+	width: 975px;
+	height: 50px;
+	background: url(../img/wqe.jpg);
+}
+.serve_mess{
+	width: 936px;
+	height: 40px;
+	padding: 20px;
+	position: relative;
+	
+}
+.serve_mess span{
+	float: left;
+}
+.serve_mess2{
+	position: absolute;
+	top: 22px;
+	left: 390px;
+}
+.serve_mess3{
+	position: absolute;
+	top: 45px;
+	left: 20px;
+}
+.serve_mess4{
+	position: absolute;
+	top: 45px;
+	left: 390px;
+}
+.serve_buttom{
+	width: 978px;
+	height: 1000px;
+	/*float: left;*/
+
+	
+}
+.serve_buttom{
+	width: 978px;
+	height: 1000px;
+	/*float: left;*/
+	margin-bottom: 20px;
+}
+#commonFoot{
+	width: 100%;
+	height: 470px;
+}

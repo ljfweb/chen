@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/common_file.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shopping.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div id="commonHeader"></div>
+		<div id="cart_list">
+			<div class="car_list_til">
+				<div class="til_mess">
+					<span >全部商品</span>
+					<div class="til_mess_right"></div>
+				</div>
+				<div class="til_box">
+					<div class="til_box1">
+						<input type="checkbox" />
+					</div>
+					<div class="til_box2">全选</div>
+					<div class="til_box3">商品信息</div>
+					<div class="til_ms">单价</div>
+					<div class="til_ms">数量</div>
+					<div class="til_ms">金额</div>
+					<div class="til_ms">操作</div>
+				</div>
+			</div>
+			<!--购车列表-->
+			<div class="shopping_list">
+				<div class="single">
+					<div class="til_box1">
+						<input type="checkbox" />
+					</div>
+					<div class="single_pic">
+						<img src="http://yunma.yunma-j.com/696154-449.jpg"/>
+					</div>
+					<div class="single_box">
+						<span>耐克Nike 男子蓝色</span>
+						
+						<span class="til_size">
+							尺寸：L码&nbsp;&nbsp;剩余：4件
+						</span>
+					</div>
+					<div class="single_ms">
+						<p class="til_old_pir">￥oldpirce</p>
+						<p>￥nowpirce</p>
+					</div>
+					<div class="single_ms">
+						<div>
+							<i>-</i>
+							<input type="text" value="1"/>
+							<i>+</i>
+						</div>
+					</div>
+					<div class="single_ms">
+						<p class="sale_pic">￥200</p>
+					</div>
+					<div class="single_mss">
+						<span>添加到收藏夹</span>
+						
+						<div class="del">
+							删除
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--结算-->
+			<div class="car_list_all">
+				<div class="all_shope">已选商品:<span>0</span>件</div>
+				<div class="all_pir">合计（不含运费）:<span>￥0</span></div>
+				<div class="buy">结算</div>
+			</div>
+		</div>
+		<div id="you_like">
+			
+		</div>
+		<div id="commonFoot"></div>
+	</body>
+	<script src="jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/shopping.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$("#commonHeader").load("head.html","数据",function(){})
+		$("#commonFoot").load("root.html","数据",function(){})
+	</script>
+</html>
